@@ -17,10 +17,14 @@
 .nav-link {
   font-size: 3vw !important;
   text-decoration: none;
+  color: black !important;
+  transition: 0.3s;
+  padding:0 !important;
+  font-weight: 200;
 }
 
 .nav-link:visited {
-  color:black;
+  color:black !important;
 }
 
 .nav-link:hover {

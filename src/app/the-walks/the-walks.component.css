@@ -1,0 +1,20 @@
+.map-div{
+  width:90%;
+  margin: auto;
+}
+
+p{
+  font-size:1.1em;
+}
+
+.walk-title{
+  font-size:3em;
+}
+
+.bs-btn-walks{
+  font-size:1.5em;
+}
+
+.tour-div{
+  min-height: 40vh;
+}

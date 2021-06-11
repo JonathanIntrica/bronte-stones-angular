@@ -12,6 +12,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { RouterModule } from "@angular/router";
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import {GoogleMapsModule} from "@angular/google-maps";
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
   ],
   imports: [
     BrowserModule,
+    GoogleMapsModule,
     RouterModule.forRoot([
       { path: 'home', component: HomeComponent },
       { path: 'whats-on', component: WhatsOnComponent },
@@ -40,6 +42,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
       { path: '', redirectTo: 'home', pathMatch: 'full' },
       {path: '**', redirectTo: '404', pathMatch: 'full'}
     ])
+
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -6,6 +6,7 @@
 
 .navbar-white-bg {
   background-color: rgba(255, 255, 255, 0.8);
+  padding-left:0;
 }
 
 .nav-item {
@@ -24,6 +25,17 @@
 
 .nav-link:hover {
   color:dimgrey;
+}
+
+.navbar-toggler {
+  background-color: rgb(255, 255, 255) !important;
+  border-radius: 0;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  color: black !important;
+
 }
 
 @media screen and (max-width:1450px) {

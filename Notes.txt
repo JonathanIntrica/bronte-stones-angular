@@ -1,0 +1,2 @@
+Don't think I imported Font Awesome the best way
+I should've used ngx-bootstrap instead of normal bootstrap

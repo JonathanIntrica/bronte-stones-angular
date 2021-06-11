@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~@fortawesome/fontawesome-free/css/fontawesome.min.css';
+
+@font-face {
+  font-family: 'IvyMode';
+  src: url(./assets/fonts/IvyMode-Thin.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'IvyMode', serif;
+  src: url(./assets/fonts/IvyMode-Light.ttf);
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'IvyMode', serif;
+  src: url(./assets/fonts/IvyMode-Regular.ttf);
+  font-style: normal;
+  font-weight: 300;
+}
+
+body {
+  background-color: black;
+  font-family: 'IvyMode', serif !important;
+  font-weight: 200 !important;
+}

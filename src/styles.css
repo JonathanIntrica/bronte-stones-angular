@@ -23,7 +23,20 @@
 }
 
 body {
-  background-color: black;
   font-family: 'IvyMode', serif !important;
   font-weight: 300;
+  width: 100%;
+
 }
+
+.container-fluid{
+  padding:0 !important;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+
+
+

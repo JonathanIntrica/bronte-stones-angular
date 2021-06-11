@@ -1,1 +1,120 @@
-<p>home works!</p>
+<div class="container-fluid">
+  <section id="section0" class="section-fullscreen background section1-background dark-bg"
+           style="background-image: url(../../assets/images/featured/home-featured.jpeg);">
+    <div class="center">
+      <span class="home-text">FOLLOW THE<br> FOOTSTEPS OF HISTORY</span>
+    </div>
+  </section>
+
+  <section class="section-fullscreen fullscreen" id="section1">
+    <div class="center">
+      <iframe class="ytplayer"
+              src="https://www.youtube.com/embed/YK0hWaT8Oh4?playlist=YK0hWaT8Oh4&amp;loop=1;rel=0&amp;modestbranding=1&amp;autohide=1&amp;showinfo=0&amp;autoplay=1&amp;mute=1"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen=""></iframe>
+    </div>
+  </section>
+
+  <section class="section-fullscreen fullscreen d-flex flex-row" id="section2">
+    <div class="d-flex flex-column justify-content-center col-6">
+      <div class="section-title align-self-center">WALK</div>
+      <div class="section-text">Step closer to the life of the Brontë sisters,
+        discover the emotions of the stones and experience the
+        beauty of Yorkshire
+      </div>
+      <div class="home-btn-div align-self-center">
+        <button [routerLink]="['/the-walks']" class="home-btn home-btn-grey">the walks</button>
+      </div>
+    </div>
+    <div class="col-6 d-flex flex-column justify-content-center">
+      <div class="home-img-div">
+        <img class="home-img" src="../../assets/images/featured/walk.jpg"
+             alt="Picture of The Emily Stone, to highlight the walks">
+      </div>
+    </div>
+  </section>
+
+  <section class="section-fullscreen fullscreen d-flex flex-row" id="section3">
+    <div class="col-6 d-flex flex-column justify-content-center">
+      <div class="home-img-div">
+        <img class="home-img" src="../../assets/images/featured/learn.jpg" alt="Picture of Charlotte Stone Construction,
+        to highlight about the stones">
+      </div>
+    </div>
+    <div class="d-flex flex-column justify-content-center col-6">
+      <div class="section-title align-self-center">LEARN</div>
+      <div class="section-text">Learn about the project and the
+        history surrounding the Stones
+      </div>
+      <div class="home-btn-div align-self-center">
+        <button [routerLink]="['/about']" class="home-btn home-btn-grey">about the stones</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-fullscreen fullscreen d-flex flex-row" id="section4">
+    <div class="d-flex flex-column justify-content-center col-6">
+      <div class="section-title align-self-center">PLAN</div>
+      <div class="section-text">Plan your visit to experience the stones for
+        yourself.
+      </div>
+      <div class="home-btn-div align-self-center">
+        <button [routerLink]="['/plan']" class="home-btn home-btn-grey">plan your visit</button>
+      </div>
+    </div>
+    <div class="col-6 d-flex flex-column justify-content-center">
+      <div class="home-img-div">
+        <img class="home-img" src="../../assets/images/featured/plan.png" alt="Picture of the maps, to highlight
+             the plan your visit pages">
+      </div>
+    </div>
+  </section>
+
+  <section class="section-fullscreen fullscreen d-flex flex-row" id="section5">
+    <div class="col-6 d-flex flex-column justify-content-center">
+      <div class="home-img-div">
+        <img class="home-img" src="../../assets/images/featured/whats-on.jpg"
+             alt="Picture of Emily Stone, to highlight The What's On section">
+      </div>
+    </div>
+    <div class="d-flex flex-column justify-content-center col-6">
+      <div class="section-title align-self-center whats-on-title">WHAT'S ON</div>
+      <div class="section-text">Our events, guided walks and
+        more!
+      </div>
+      <div class="home-btn-div align-self-center">
+        <button [routerLink]="['/whats-on']" class="home-btn home-btn-grey">what's on</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-fullscreen section-white-text background d-flex flex-column justify-content-center"
+           id="section6"
+           style="background-image: url(../../assets/images/featured/shop.jpg);">
+    <div class="section-title align-self-center">SHOP</div>
+    <span class="section-text align-self-center">Browse our range of clothing,<br> custom maps and more.</span>
+
+    <div class="home-btn-div align-self-center">
+      <button [routerLink]="['/shop']" class="home-btn home-btn-white">shop</button>
+    </div>
+  </section>
+
+  <section class="section-fullscreen fullscreen d-flex flex-row" id="section7">
+    <div class="col-6 d-flex flex-column justify-content-center">
+      <div class="home-img-div">
+        <img class="home-img" src="../../assets/images/featured/contact.jpg"
+             alt="Picture of The Bronte Stone to highlight The Contact Us section">
+      </div>
+    </div>
+    <div class="d-flex flex-column justify-content-center col-6">
+      <div class="section-title align-self-center whats-on-title">CONNECT</div>
+      <div class="section-text">Connect with us, share your thoughts or book a tour
+        of the stones
+      </div>
+      <div class="home-btn-div align-self-center">
+        <button [routerLink]="['/whats-on']" class="home-btn home-btn-grey">contact us</button>
+      </div>
+    </div>
+  </section>
+</div>

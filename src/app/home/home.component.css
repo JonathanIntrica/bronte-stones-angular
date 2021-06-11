@@ -1,0 +1,144 @@
+
+.section-fullscreen {
+  width: 100vw;
+  height: 100vh;
+}
+
+.background {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-title {
+  font-size: 10vw !important;
+  font-weight: 100 !important;
+}
+
+.section-white-text{
+  color:white;
+}
+
+.whats-on-title{
+  font-size: 7vw !important;
+}
+
+.home-btn{
+  padding: 0 30px 1px 30px;
+  font-weight: 100 !important;
+  color: white;
+  font-size: 5vh;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.home-btn-grey {
+  border-color: #242424;
+  background-color: #242424;
+}
+
+.home-btn-white {
+  border-color: black;
+  background-color: white;
+  color: black;
+}
+
+.home-img-div {
+  height:70%;
+  width:100%;
+}
+
+.home-img{
+  width:100%;
+  height:100%;
+  object-fit: contain;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+
+.section-text {
+  font-size: 5vh !important;
+  font-weight: 100 !important;
+  text-align: center;
+  width:90%;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.home-btn-div {
+  margin-top: 2%;
+}
+
+
+.background {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section1-background {
+  background-position: 70%, 60%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.home-text {
+  margin-top: 15vh;
+  font-size: 10vh !important;
+  color: white !important;
+  font-weight: 100 !important;
+  text-align: center;
+}
+
+.ytplayer {
+  width: 62.9vw;
+  height: 70vh;
+}
+
+@media screen and (max-width: 1024px) and (orientation: portrait) {
+  .ytplayer {
+    width: 80vw;
+    height: 35vh;
+  }
+
+  .home-text {
+    font-size: 7vh !important;
+    margin-top: 5vh;
+  }
+}
+
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  .ytplayer {
+    width: 80vw;
+    height: 70vh;
+  }
+}
+
+/* IPad Portrait */
+@media only screen
+and (min-width: 1024px)
+and (max-height: 1366px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 1.5) {
+  .ytplayer {
+    width: 80vw;
+    height: 33.6vh;
+  }
+}
+
+/* Ipad Landscape */
+@media only screen
+and (min-width: 1024px)
+and (max-height: 1366px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 1.5) {
+  .ytplayer {
+    width: 80vw;
+    height: 68vh;
+  }
+}

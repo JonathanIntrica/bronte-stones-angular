@@ -7,7 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { WhatsOnComponent } from './whats-on/whats-on.component';
 import { TheWalksComponent } from './the-walks/the-walks.component';
 import { ShopComponent } from './shop/shop.component';
-import { PlanYourVisitComponent } from './plan-your-visit/plan-your-visit.component';
+import { PlanYourVisitComponent } from './plan/plan-your-visit.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { RouterModule } from "@angular/router";
@@ -31,11 +31,11 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     RouterModule.forRoot([
       { path: 'home', component: HomeComponent },
       { path: 'whats-on', component: WhatsOnComponent },
-      { path: 'shop', component: WhatsOnComponent },
+      { path: 'shop', component: ShopComponent },
       { path: 'the-walks', component: TheWalksComponent },
-      { path: 'plan-your-visit', component: WhatsOnComponent },
-      { path: 'about', component: WhatsOnComponent },
-      { path: 'contact', component: WhatsOnComponent },
+      { path: 'plan', component: PlanYourVisitComponent },
+      { path: 'about', component: AboutComponent },
+      { path: 'contact', component: ContactComponent },
       { path: '404', component: PageNotFoundComponent },
       { path: '', redirectTo: 'home', pathMatch: 'full' },
       {path: '**', redirectTo: '404', pathMatch: 'full'}

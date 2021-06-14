@@ -1,8 +1,12 @@
-
   <div class="map-div">
     <google-map
       height="50vh"
       width="100%"
-    ></google-map>
+      [zoom]="zoom"
+      [center]="center">
+      <map-polyline
+        [path]="path"
+      ></map-polyline>
+    </google-map>
   </div>
 

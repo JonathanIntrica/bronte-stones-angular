@@ -17,6 +17,8 @@ import { BronteWalkComponent } from './the-walks/bronte-walk/bronte-walk.compone
 import { AnneWalkComponent } from './the-walks/anne-walk/anne-walk.component';
 import { CharlotteWalkComponent } from './the-walks/charlotte-walk/charlotte-walk.component';
 import { EmilyWalkComponent } from './the-walks/emily-walk/emily-walk.component';
+import {MapService} from "./shared/map.service";
+import {HttpClient, HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -33,9 +35,10 @@ import { EmilyWalkComponent } from './the-walks/emily-walk/emily-walk.component'
     BronteWalkComponent,
     AnneWalkComponent,
     CharlotteWalkComponent,
-    EmilyWalkComponent
+    EmilyWalkComponent,
   ],
   imports: [
+    HttpClientModule,
     BrowserModule,
     GoogleMapsModule,
     RouterModule.forRoot([
@@ -53,10 +56,11 @@ import { EmilyWalkComponent } from './the-walks/emily-walk/emily-walk.component'
       { path: 'the-walks/anne-walk', component: AnneWalkComponent },
       { path: '', redirectTo: 'home', pathMatch: 'full' },
       {path: '**', redirectTo: '404', pathMatch: 'full'}
-    ])
-
+    ]),
   ],
-  providers: [],
+  providers: [
+    MapService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
